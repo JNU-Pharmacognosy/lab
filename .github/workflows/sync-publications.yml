@@ -1,4 +1,3 @@
-yaml
 name: Sync publications from ORCID
 
 on:
