@@ -21,7 +21,7 @@ async function loadPublications() {
     }
     // newest first
     pubs.sort((a, b) => (b.year || 0) - (a.year || 0));
-    const recent = pubs.slice(0, 8);
+    const recent = pubs.slice(0, 6);
     list.innerHTML = recent
       .map(
         (p) => `
