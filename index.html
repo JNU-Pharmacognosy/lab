@@ -235,7 +235,11 @@
     <img class="lab-photo tall" src="assets/Lab pic.jpg" alt="Lab group photo"style="height:330px;">
   <p class="copyright">© <span id="year"></span> Laboratory of Pharmacognosy, College of Pharmacy, Jeju National University</p>
 </footer>
-
+<script>
+  document.addEventListener("contextmenu", function (e) {
+    if (e.target.tagName === "IMG") e.preventDefault();
+  });
+</script>
 <script src="js/main.js"></script>
 </body>
 </html>
