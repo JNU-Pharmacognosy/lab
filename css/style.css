@@ -129,7 +129,7 @@ ul { padding-left: 1.1em; }
 .contact-list .label { display: block; color: var(--amber); font-weight: 700; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 0.15rem; }
 .contact-list a { color: var(--white); }
 .site-footer .placeholder-box { background: rgba(255,255,255,0.06); border-color: var(--sage); color: var(--sage-light); }
-..copyright { text-align: center; color: var(--sage); font-size: clamp(0.65rem, 2vw, 0.85rem); margin-top: 3rem; white-space: nowrap; }
+.copyright { text-align: center; color: #A8BFB0; font-size: clamp(0.65rem, 2vw, 0.85rem); margin-top: 3rem; white-space: nowrap; }
 .pi-name { font-size: 1.4rem; }
 .pi-visiting { color: var(--sage); font-style: italic; }
 .hero-grid { display: flex; align-items: center; gap: 2.5rem; flex-wrap: wrap; }
