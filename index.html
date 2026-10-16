@@ -251,6 +251,9 @@
         <a href="https://intl.jejunu.ac.kr/" target="_blank" rel="noopener">JNU Office of International Affairs ↗</a>
       </p>
     </div>
+        <div style="text-align:center;margin-top:2rem;">
+      <button class="btn btn-primary" onclick="document.getElementById('inquiry-modal').classList.add('open')">Graduate Program Inquiry / Pre-Application</button>
+    </div>
   </div>
 </section>
 
@@ -276,5 +279,12 @@
   });
 </script>
 <script src="js/main.js"></script>
+
+<div class="modal-overlay" id="inquiry-modal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('inquiry-modal').classList.remove('open')">&times;</button>
+    <iframe src="<iframe src="<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScq64dg6pk1o5QpWywSwaYGbK0fwCaX4rStKmbeoB2FfEqvUA/viewform?embedded=true" width="640" height="2472" frameborder="0" marginheight="0" marginwidth="0">로드 중…</iframe>" title="Graduate Program Inquiry Form"></iframe>
+  </div>
+</div>
 </body>
 </html>
